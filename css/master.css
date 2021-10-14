@@ -1,3 +1,11 @@
 #butterfly_claw {
-  width:70%;
+  width:60%;
+  display:block;
+  margin:auto;
+}
+
+#butterfly {
+  width:60%;
+  display:block;
+  margin:auto
 }
