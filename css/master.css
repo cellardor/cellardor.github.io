@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poiret+One&family=Rubik+Beastly&family=Special+Elite&family=Yanone+Kaffeesatz&display=swap');
+
+* {
+  margin:0;
+  font-family:'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+  background-color: black;
+}
+header {
+  background-color:black;
+}
+
+header h1 {
+  color: white;
+  padding:30px 10px;
+}
+
+nav {
+  color: white;
+}
+
+.navbar {
+  color: white;
+  list-style-type:none;
+  padding-left:0px;
+}
+
+.navbar li {
+  display: inline-block;
+  padding: 30px;
+  padding-right: 30px;
+
+}
+
+.navbar a {
+  color:black;
+}
+
+section {
+  background-color: rgb(99, 200, 185);
+  padding: 10px;
+  margin: 5px;
+}
+
+section h3 {
+  padding: 15px 0px;
+}
+
+article {
+  background-color: lightgrey;
+  padding: 30px 10px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color:black;
+}
+
+footer h5 {
+   color: white;
+   padding:30px 10px;
+ }
