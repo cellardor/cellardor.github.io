@@ -39,7 +39,12 @@ main {
   clear:both;
   height: 600px;
 }
-
+#Movie_Poster{
+  width:80%;
+}
+#W5D1_Project{
+  width:80%
+}
 .footer_left {
   width: 30%;
   float:left;
