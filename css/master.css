@@ -12,22 +12,21 @@ header {
   background-color: black;
   color: white;
   overflow:auto
+  margin:50px;
+  padding:20px;
 
-}
-
-header {
-  float:left;
-}
-
-header{
-  float:right;
 }
 
 .navbar {
   list-style-type:none;
-  padding-left:0px;
+  padding-left:20px;
+  text-align:center;
 }
+.center {
+  margin:auto;
+  width:50%;
 
+}
 .navbar li {
   display: inline-block;
   padding: 10px;
@@ -35,13 +34,23 @@ header{
 
 }
 
+.navbar a {
+  color:white;
+}
+
 main {
   clear:both;
   height: 600px;
 }
+
+#outlines_blackwhite{
+  width:80%;
+}
+
 #Movie_Poster{
   width:50%;
 }
+
 #Book_Cover{
   width:80%
 }
