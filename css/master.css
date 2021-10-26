@@ -40,10 +40,10 @@ main {
   height: 600px;
 }
 #Movie_Poster{
-  width:80%;
+  width:50%;
 }
-#W5D1_Project{
-  width:50%
+#Book_Cover{
+  width:80%
 }
 .footer_left {
   width: 30%;
