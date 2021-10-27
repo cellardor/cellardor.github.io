@@ -1,20 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poiret+One&family=Rubik+Beastly&family=Special+Elite&display=swap');
 * {
-  margin:0;
-}
-
-body {
-  background-color: black;
-  font-family:'Poiret One', cursive;
+  margin:0px;
 }
 
 header {
   background-color: black;
   color: white;
   overflow:auto
-  margin:50px;
   padding:20px;
 
+}
+body {
+  background-color: black;
+  font-family:'Poiret One', cursive;
 }
 
 .navbar {
