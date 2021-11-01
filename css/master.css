@@ -1,69 +1,47 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Poiret+One&family=Rubik+Beastly&family=Special+Elite&display=swap');
-* {
-  margin:0px;
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Yanone+Kaffeesatz&display=swap');
+
+*  {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  margin:auto;
 }
 
-header {
-  background-color: black;
-  color: white;
-  overflow:auto
-  padding:20px;
-
-}
 body {
   background-color: black;
   font-family:'Poiret One', cursive;
 }
 
 .navbar {
-  list-style-type:none;
-  padding-left:20px;
-  text-align:center;
+  margin:0px;
+  pading:30px;
 }
-.center {
-  margin:auto;
-  width:50%;
 
+div {
+  padding:30px;
 }
+
+
 .navbar li {
-  display: inline-block;
-  padding: 10px;
-  padding-right: 0px;
+  margin: 20px;
+  pading: 20px;
 
 }
-
-.navbar a {
-  color:white;
+h1 {
+  text:white;
+  padding:10px;
 }
 
 main {
-  clear:both;
-  height: 600px;
+  height: 300px;
 }
 
-#outlines_blackwhite{
-  width:80%;
-}
+#text {
+  width:30%;
+  display:block;
+  margin:auto;
+  }
 
-#Movie_Poster{
-  width:50%;
-}
-
-#Book_Cover{
-  width:80%
-}
-.footer_left {
-  width: 30%;
-  float:left;
-}
-
-.footer_right {
-  width:60%;
-  float:right;
-}
-footer{
-  background-color: black;
-  color:white;
-  overflow: auto;
-  padding: 20px;
+#triangle {
+  width:30%;
+  display:block;
+  margin:auto;
 }
