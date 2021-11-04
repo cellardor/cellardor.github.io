@@ -19,29 +19,50 @@ div {
   padding:30px;
 }
 
+nav {
+  padding-top:50px;
+}
+
+
+.navbar a {
+  text-decoration:none;
+  color:white;
+}
+
+.navbar {
+  list-style-type:none;
+  padding-left:130px;
+
+
+}
+.navbar li:hover {
+  color:white;
+}
 
 .navbar li {
+  display:inline-block;
   margin: 20px;
-  pading: 20px;
+  padding: 20px;
+  color:white;
 
 }
-h1 {
-  text:white;
-  padding:10px;
+.logo_container {
+  position:fixed;
+  bottom:0px;
 }
-
 main {
-  height: 300px;
+  height:100vh;
 }
 
-#text {
+#logo {
   width:30%;
   display:block;
   margin:auto;
   }
 
 #triangle {
-  width:30%;
+  width:100%;
   display:block;
   margin:auto;
+  margin-top:20px;
 }
