@@ -3,6 +3,8 @@
 *  {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   margin:auto;
+  color:white;
+
 }
 
 body {
@@ -41,10 +43,16 @@ nav {
 
 h1 {
   display:inline-block;
-  margin-left:270px;
-  font-size:20px;
+  margin-left:80px;
+  font-size:25px;
   color:white;
-  padding:30px;
+  text-decoration:underline;
+
+}
+p {
+  margin-left:80px;
+  font-size:20px;
+
 }
 
 .navbar li {
