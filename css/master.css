@@ -41,15 +41,19 @@ nav {
 
 h1 {
   display:inline-block;
+  margin-left:270px;
   font-size:20px;
   color:white;
+  padding:30px;
 }
 
 .navbar li {
   display:inline-block;
-  margin: 20px;
+  margin:20px;
   padding: 20px;
   color:white;
+  font-size:30px;
+  margin-left:5px;
 
 }
 .logo_container {
@@ -58,6 +62,27 @@ h1 {
 }
 main {
   height:100vh;
+}
+
+.article_content {
+  width:10%;
+  margine-top:30px;
+  margin-left:30px;
+}
+
+.section_header {
+  padding:10px;
+  font-size:30pt;
+  text-align:center;
+
+}
+.about{
+  font-color:white;
+}
+
+form{
+  color:white;
+  margin-left:200pt;
 }
 
 #logo {
