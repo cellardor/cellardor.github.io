@@ -87,14 +87,17 @@ main {
   font-color:white;
 }
 .submit_button: {
-  color:white;
   text-decoration: black;
   padding:10px;
   font-size:18px;
   margin:10px 20px;
 }
 .email {
-  margin-left:65px;
+  margin-left:px;
+}
+
+h2 {
+  margin-left:285px;
 }
 form{
   color:white;
