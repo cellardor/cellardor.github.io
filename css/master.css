@@ -84,10 +84,10 @@ main {
 
 }
 .about{
-  font-color:white;
+  text-decoration-color::white;
 }
 .submit_button: {
-  text-decoration: black;
+  text-decoration:black;
   padding:10px;
   font-size:18px;
   margin:10px 20px;
@@ -102,6 +102,9 @@ h2 {
 form{
   color:white;
   margin-left:200pt;
+}
+footer {
+  margin-left:10px;
 }
 
 #logo {
