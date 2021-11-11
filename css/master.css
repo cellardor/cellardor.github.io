@@ -104,7 +104,10 @@ form{
   margin-left:200pt;
 }
 footer {
-  margin-left:10px;
+  margin:10px;
+}
+.portfolio_image{
+  width:100%;
 }
 
 #logo {
