@@ -43,7 +43,7 @@ nav {
 
 h1 {
   display:inline-block;
-  margin-left:80px;
+  margin-left:295px;
   font-size:25px;
   color:white;
   text-decoration:underline;
@@ -65,7 +65,6 @@ p {
 
 }
 .logo_container {
-  position:fixed;
   bottom:0px;
 }
 main {
@@ -104,8 +103,8 @@ form{
 
 #logo {
   width:15%;
-  margin-top:30px;
-  margin-left: 295px;
+  margin-top:50px;
+  margin-left:355px;
   }
 
 #triangle {
