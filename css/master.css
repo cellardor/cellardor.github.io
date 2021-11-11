@@ -73,9 +73,9 @@ main {
 }
 
 .article_content {
-  width:10%;
-  margine-top:30px;
-  margin-left:30px;
+  width:0%;
+  margin-left:0%;
+
 }
 
 .section_header {
@@ -87,7 +87,16 @@ main {
 .about{
   font-color:white;
 }
-
+.submit_button: {
+  background-color:rgb(125, 39, 135);
+  color:white;
+  padding:10px;
+  font-size:18px;
+  margin:10px 20px;
+}
+.email {
+  margin-left:65px;
+}
 form{
   color:white;
   margin-left:200pt;
@@ -96,7 +105,7 @@ form{
 #logo {
   width:15%;
   margin-top:30px;
-  margin-left: 330px;
+  margin-left: 295px;
   }
 
 #triangle {
