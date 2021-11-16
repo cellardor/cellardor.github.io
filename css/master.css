@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Yanone+Kaffeesatz&display=swap');
 
 *  {
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+
   margin:auto;
   color:white;
 
@@ -10,16 +10,13 @@
 body {
   background-color: black;
   font-family:'Poiret One', cursive;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .navbar {
   margin:0px;
-  pading:0px;
-
-}
-
-div {
   padding:0px;
+
 }
 
 nav {
@@ -32,21 +29,21 @@ nav {
   color:white;
 }
 
-.navbar {
+/* .navbar {
   list-style-type:none;
   padding-left:130px;
 
-}
+} */
 .navbar li:hover {
   color:white;
 }
 
 h1 {
-  display:inline-block;
+  /* display:inline-block;
   margin-left:295px;
   font-size:25px;
   color:white;
-  text-decoration:underline;
+  text-decoration:underline; */
 
 }
 p {
@@ -64,11 +61,9 @@ p {
   margin-left:5px;
 
 }
-.logo_container {
-  bottom:0px;
-}
+
 main {
-  height:100vh;
+
 }
 
 .article_content {
@@ -91,6 +86,7 @@ main {
   padding:10px;
   font-size:18px;
   margin:10px 20px;
+  color:black;
 }
 .email {
   margin-left:px;
@@ -111,15 +107,26 @@ footer {
 }
 
 #logo {
-  width:15%;
-  margin-top:50px;
-  margin-left:355px;
+  padding:60px;
+  display:block;
+  margin:auto;
   }
 
 #triangle {
-  width:85%;
+  width:80%;
+  max-width:500px;
   display:block;
-  margin:auto;
-  margin-top:70px;
+  margin:0px auto;
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
 
+}
+#tagline {
+  text-align:center;
+  font-size:25px;
+  color:white;
+  text-decoration:underline;
+  margin:20px 0px:
 }
