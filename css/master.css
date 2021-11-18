@@ -2,9 +2,7 @@
 
 *  {
 
-  margin:auto;
   color:white;
-
 }
 
 body {
@@ -19,12 +17,10 @@ body {
 }
 
 .cat_pic {
-  width:5%;
+  width:20%;
+  margin-left:100px;
 }
 
-}
-
-}
 
 nav {
   padding-top:10px;
@@ -46,6 +42,8 @@ nav {
 .navbar li:hover {
   color:white;
   margin: auto;
+
+
 }
 
 /* h1 {
@@ -57,7 +55,6 @@ nav {
 p {
   margin-left:80px;
   font-size:20px;
-
 }
 
 .navbar li {
@@ -67,7 +64,7 @@ p {
   padding: 20px;
   color:white;
   font-size:30px;
-  margin-left:5px;
+  margin-left:20px;
 
 }
 
@@ -78,18 +75,18 @@ main {
 .article_content {
   width:0%;
   margin-left:0%;
-
 }
 
 .section_header {
   padding:10px;
   font-size:30pt;
   text-align:center;
+}
 
-}
 .about{
-  text-decoration-color::white;
+  text-decoration-color:underline;
 }
+
 .submit_button: {
   text-decoration:white;
   padding:10px;
@@ -97,6 +94,7 @@ main {
   margin:10px 20px;
   color:black;
 }
+
 .email {
   margin-left:px;
 }
@@ -104,18 +102,19 @@ main {
 h2 {
   margin-left:285px;
 }
+
 form{
   color:white;
   margin-left:200pt;
 }
+
 footer {
   margin:20px;
 }
+
 .portfolio_images {
-  width:50%
-
+  width:30%
 }
-
 
 #logo {
   padding:60px;
@@ -132,8 +131,8 @@ footer {
   bottom:0;
   left:0;
   right:0;
-
 }
+
 #tagline {
   text-align:center;
   font-size:25px;
