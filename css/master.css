@@ -15,18 +15,27 @@ body {
 
 .navbar {
   margin:0px;
-  padding:0px;
+  padding:20px;
+}
+
+.cat_pic {
+  width:5%;
+}
+
+}
 
 }
 
 nav {
   padding-top:10px;
+
 }
 
 
 .navbar a {
   text-decoration:none;
   color:white;
+
 }
 
 /* .navbar {
@@ -36,16 +45,15 @@ nav {
 } */
 .navbar li:hover {
   color:white;
+  margin: auto;
 }
 
-h1 {
-  /* display:inline-block;
-  margin-left:295px;
-  font-size:25px;
-  color:white;
-  text-decoration:underline; */
+/* h1 {
+  display:inline-block;
+  margin-left:80px;
+  text-decoration:underline;;
+} */
 
-}
 p {
   margin-left:80px;
   font-size:20px;
@@ -54,6 +62,7 @@ p {
 
 .navbar li {
   display:inline-block;
+  justify-content: center;
   margin:20px;
   padding: 20px;
   color:white;
@@ -82,7 +91,7 @@ main {
   text-decoration-color::white;
 }
 .submit_button: {
-  text-decoration:black;
+  text-decoration:white;
   padding:10px;
   font-size:18px;
   margin:10px 20px;
@@ -100,11 +109,13 @@ form{
   margin-left:200pt;
 }
 footer {
-  margin:10px;
+  margin:20px;
 }
-.portfolio_image{
-  width:100%;
+.portfolio_images {
+  width:50%
+
 }
+
 
 #logo {
   padding:60px;
@@ -113,7 +124,7 @@ footer {
   }
 
 #triangle {
-  width:80%;
+  width:100%;
   max-width:500px;
   display:block;
   margin:0px auto;
@@ -129,4 +140,8 @@ footer {
   color:white;
   text-decoration:underline;
   margin:20px 0px:
+}
+
+#footer_ck {
+  bottom:0px;
 }
