@@ -17,16 +17,25 @@ body {
 }
 
 .cat_pic {
+  display:block;
   width:20%;
   margin-left:100px;
 }
 
+.cat_facts {
+  display:block;
+  border:solid red;
+}
 
 nav {
   padding-top:10px;
 
 }
 
+.portfolio_images {
+  width:30%;
+
+}
 
 .navbar a {
   text-decoration:none;
@@ -110,7 +119,10 @@ form{
 
 footer {
   margin:20px;
+  margin-top:200px;
+
 }
+@media only screen and (max width:100px)
 
 .portfolio_images {
   width:30%
@@ -122,9 +134,13 @@ footer {
   margin:auto;
   }
 
+#portfolio_images {
+  width:30%;
+}
+
 #triangle {
-  width:100%;
-  max-width:500px;
+  width:200%;
+  max-width:600px;
   display:block;
   margin:0px auto;
   position:absolute;
@@ -142,5 +158,5 @@ footer {
 }
 
 #footer_ck {
-  bottom:0px;
+
 }
