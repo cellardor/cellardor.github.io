@@ -24,7 +24,7 @@ body {
 
 .cat_facts {
   display:block;
-  border:solid red;
+
 }
 
 nav {
@@ -35,6 +35,10 @@ nav {
 .portfolio_images {
   width:30%;
 
+}
+
+.navvar_container {
+  margin:auto;
 }
 
 .navbar a {
@@ -50,7 +54,7 @@ nav {
 } */
 .navbar li:hover {
   color:white;
-  margin: auto;
+
 
 
 }
@@ -76,7 +80,9 @@ p {
   margin-left:20px;
 
 }
-
+.about_wrapper {
+  display:flex;
+}
 main {
 
 }
@@ -117,12 +123,20 @@ form{
   margin-left:200pt;
 }
 
+.carousel_slide {
+  margin-left:400px;
+  padding-top:90px;
+}
+
 footer {
   margin:20px;
   margin-top:200px;
-
 }
+
+
 @media only screen and (max width:100px)
+
+
 
 .portfolio_images {
   width:30%
