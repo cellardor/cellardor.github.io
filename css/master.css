@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Yanone+Kaffeesatz&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Slab&family=Kings&family=Vidaloka&family=Yanone+Kaffeesatz&display=swap');
 *  {
 
   color:white;
@@ -18,15 +17,42 @@ body {
 
 .cat_pic {
   display:block;
+  height:40%;
   width:20%;
   margin-left:100px;
 }
 
 .cat_facts {
   display:block;
+}
+
+.facts_header {
+  text-decoration:underline;
+  margin-left:80px;
+}
+.leading {
+  margin:auto;
+  width:70%;
 
 }
 
+.typography_header {
+  padding:10px;
+  font-size:30pt;
+  text-align:center;
+
+
+}
+.video {
+  width:70%;
+  max-width:500;
+  margin:20px auto;
+  padding: 20px;
+  display:block;
+
+
+
+}
 nav {
   padding-top:10px;
 
@@ -82,6 +108,7 @@ p {
 }
 .about_wrapper {
   display:flex;
+
 }
 main {
 
@@ -107,11 +134,11 @@ main {
   padding:10px;
   font-size:18px;
   margin:10px 20px;
-  color:black;
+
 }
 
 .email {
-  margin-left:px;
+  margin-:autopx;
 }
 
 h2 {
@@ -121,11 +148,6 @@ h2 {
 form{
   color:white;
   margin-left:200pt;
-}
-
-.carousel_slide {
-  margin-left:400px;
-  padding-top:90px;
 }
 
 footer {
@@ -168,7 +190,7 @@ footer {
   font-size:25px;
   color:white;
   text-decoration:underline;
-  margin:20px 0px:
+  margin:20px 10px:
 }
 
 #footer_ck {
