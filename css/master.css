@@ -45,7 +45,7 @@ body {
 }
 .video {
   width:70%;
-  max-width:500;
+  max-width:300;
   margin:20px auto;
   padding: 20px;
   display:block;
