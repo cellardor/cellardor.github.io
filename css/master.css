@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Josefin+Slab&family=Kings&family=Vidaloka&family=Yanone+Kaffeesatz&display=swap');
-*  {
 
+*  {
   color:white;
 }
 
@@ -10,9 +10,26 @@ body {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+nav {
+  padding-top:10px;
+}
+
+.navbar_container {
+  margin:auto;
+}
+
+.navbar a {
+  text-decoration:none;
+  color:white;
+}
+
 .navbar {
   margin:0px;
   padding:20px;
+}
+
+.navbar li:hover {
+  color:white;
 }
 
 .cat_pic {
@@ -24,72 +41,40 @@ body {
 
 .cat_facts {
   display:block;
+  font-size:20px;
+}
+
+.questions {
+  font-size: 20px;
 }
 
 .facts_header {
   text-decoration:underline;
   margin-left:80px;
 }
+
 .leading {
   margin:auto;
   width:70%;
-
 }
 
 .typography_header {
   padding:10px;
   font-size:30pt;
   text-align:center;
-
-
 }
+
 .video {
   width:50%;
   max-width:300;
   margin:20px auto;
   padding: 20px;
   display:block;
-
-
-
-}
-nav {
-  padding-top:10px;
-
 }
 
 .portfolio_images {
   width:30%;
-
 }
-
-.navvar_container {
-  margin:auto;
-}
-
-.navbar a {
-  text-decoration:none;
-  color:white;
-
-}
-
-/* .navbar {
-  list-style-type:none;
-  padding-left:130px;
-
-} */
-.navbar li:hover {
-  color:white;
-
-
-
-}
-
-/* h1 {
-  display:inline-block;
-  margin-left:80px;
-  text-decoration:underline;;
-} */
 
 p {
   margin-left:80px;
@@ -110,9 +95,6 @@ p {
   display:flex;
 
 }
-main {
-
-}
 
 .article_content {
   width:0%;
@@ -130,11 +112,11 @@ main {
 }
 
 .submit_button: {
+  background-color:black;
   text-decoration:white;
   padding:10px;
   font-size:18px;
   margin:10px 20px;
-
 }
 
 .email {
@@ -155,10 +137,7 @@ footer {
   margin-top:200px;
 }
 
-
 @media only screen and (max width:100px)
-
-
 
 .portfolio_images {
   width:30%
@@ -168,7 +147,7 @@ footer {
   padding:60px;
   display:block;
   margin:auto;
-  }
+}
 
 #portfolio_images {
   width:30%;
@@ -194,5 +173,4 @@ footer {
 }
 
 #footer_ck {
-
 }
