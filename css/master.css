@@ -15,6 +15,8 @@ nav {
 }
 
 .navbar_container {
+  display:flex;
+  justify-content:center;
   margin:auto;
 }
 
@@ -25,11 +27,21 @@ nav {
 
 .navbar {
   margin:0px;
-  padding:20px;
+  padding-left:0;
 }
 
 .navbar li:hover {
   color:white;
+}
+
+.navbar li {
+  display:inline-block;
+  justify-content: center;
+  padding: 20px;
+  color:white;
+  font-size:30px;
+  margin-left:20px;
+
 }
 
 .cat_pic {
@@ -55,21 +67,13 @@ nav {
 
 .leading {
   margin:auto;
-  width:70%;
+  width:90%;
 }
 
 .typography_header {
   padding:10px;
   font-size:30pt;
   text-align:center;
-}
-
-.video {
-  width:50%;
-  max-width:300;
-  margin:20px auto;
-  padding: 20px;
-  display:block;
 }
 
 .portfolio_images {
@@ -81,16 +85,6 @@ p {
   font-size:20px;
 }
 
-.navbar li {
-  display:inline-block;
-  justify-content: center;
-  margin:20px;
-  padding: 20px;
-  color:white;
-  font-size:30px;
-  margin-left:20px;
-
-}
 .about_wrapper {
   display:flex;
 
@@ -111,7 +105,7 @@ p {
   text-decoration-color:underline;
 }
 
-.submit_button: {
+.submit_button {
   background-color:black;
   text-decoration:white;
   padding:10px;
@@ -120,16 +114,19 @@ p {
 }
 
 .email {
-  margin-:autopx;
+  margin:auto;
+  text-align: center;
 }
 
 h2 {
-  margin-left:285px;
+  /* margin-left:285px; */
 }
 
 form{
   color:white;
-  margin-left:200pt;
+  margin:auto;
+  width:70%;
+  text-align: center
 }
 
 footer {
@@ -137,11 +134,15 @@ footer {
   margin-top:200px;
 }
 
-@media only screen and (max width:100px)
-
-.portfolio_images {
-  width:30%
+.gallery_grid {
+  width:90%;
+  margin:auto;
 }
+
+.video {
+  width:100%;
+}
+
 
 #logo {
   padding:60px;
@@ -154,7 +155,7 @@ footer {
 }
 
 #triangle {
-  width:200%;
+  width:100%;
   max-width:600px;
   display:block;
   margin:0px auto;
